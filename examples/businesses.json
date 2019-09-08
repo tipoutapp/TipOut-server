@@ -1,0 +1,100 @@
+[
+    {
+        "_id": 1,
+        "name":"Max Brenner",
+        "type":["caffe"],
+        "description":"Romantic Chocolate Caffee",
+        "stars":3.9,
+        "location": {
+            "coordinates": [31.99125567989272,34.77458437989272],
+            "address": "bait zion, rotshild 45, tel aviv"
+        },
+        "operatingHours": {
+            "open": "12:00",
+            "close":"02:00"
+        },
+        "kosher":true,
+        "dishesTypes":["Dessert"],
+        "price_level": 2,
+        "imageURL":""
+    },
+    {
+        "_id": 2,
+        "name":"Ad Haezem",
+        "type":["restaurant"],
+        "description":"Meat Restaurant",
+        "stars": 3.9,
+        "location": {
+            "coordinates": [32.06511252989272,34.77454272989273],
+            "address": "sdetor rotshild 31, tel aviv"
+        },
+        "operatingHours": {
+            "open": "12:00",
+            "close": "22:00"
+        },
+        "kosher":true,
+        "dishesTypes":["Homemade","Barbecue","Fast-Food"],
+        "price_level": 2,
+        "imageURL":""
+    },
+    {
+        "_id": 3,
+        "name":"Gusto",
+        "type":["restaurant"],
+        "description": "Italian Restaurant",
+        "stars":4.4,
+        "location": {
+            "coordinates": [32.08075592989272,34.78111027989272],
+            "address": "frishman 90, tel aviv"
+        },
+        "operatingHours": {
+            "open":"12:00",
+            "close":"22:00"
+        },
+        "kosher":true,
+        "dishesTypes":["Pasta","Pizza","Salad"],
+        "price_level":2,
+        "imageURL":""
+    },
+    {
+        "_id": 4,
+        "name":"Studio Be You",
+        "type":[ "club"],
+        "description":"Latin Dancing Club",
+        "stars":3.2,
+        "location": {
+            "coordinates": [32.08832192989272,34.78362837989273],
+            "address": "aben gvirol 124, tel aviv"
+        },
+        "operatingHours": {
+            "open":"21:30",
+            "close":"04:00"
+        },
+        "kosher":false,
+        "dishesTypes":["Fast-Food"],
+        "price_level":2,
+        "imageURL":""
+    },
+    {
+        "_id": 5,
+        "name": "Minna Tomei",
+        "type":["restaurant"],
+        "description": "Asian Kitchen",
+        "stars": 4.4,
+        "location": {
+            "coordinates": [32.07187217989272,34.78778927989272],
+            "address": "HaArba'a St 17, Tel Aviv-Yafo"
+        },
+        "operatingHours": {
+            "open": "12:00",
+            "close": "23:00"
+        },
+        "kosher": false,
+        "dishesTypes":["Japanese", "Asian", "Seafood", "Homemade"],
+        "price_level": 2,
+        "imageURL":""
+    }
+]
+
+
+
