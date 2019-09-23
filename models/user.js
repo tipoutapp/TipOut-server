@@ -19,7 +19,7 @@ const userSchema = new Schema({
         type: String,
         required: true
     },
-    activeDays: {
+    activeDays: [{
         type: String,
         enum: ["sunday",
             "monday",
@@ -29,8 +29,8 @@ const userSchema = new Schema({
             "friday",
             "saturday"],
         required: true
-    },
-    food: {
+    }],
+    food: [{
         type: String,
         enum: [
             "Homemade",
@@ -45,20 +45,22 @@ const userSchema = new Schema({
             "Asian"
           ],
         required: true
-    },
-    activities: {
+    }],
+    activities: [{
         type: String,
         enum: ["caffe", "restaurant", "club", "pub"],
         required: true
-    },
+    }],
     kosher: {
         type: Boolean,
         required: true
     },
+    suggestionsML: [Number],
     imageURL: {
         type: String,
         required: true
     }
+    
 });
 
 module.exports = mongoose.model('Users', userSchema);

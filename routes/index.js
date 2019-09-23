@@ -5,7 +5,7 @@ const data_controller = require('../controllers/data-managment');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'TipOut API' });
 });
 
 router.get('/populate', data_controller.populate);

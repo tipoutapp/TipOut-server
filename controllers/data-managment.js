@@ -9,7 +9,7 @@ const usersDAO = require('../dao/usersdao');
 
 exports.populate = async (req,res,next) => {
     try{
-        await businessDAO.createInBatch(BusinessJSON);
+        // await businessDAO.createInBatch(BusinessJSON);
         await usersDAO.createInBatchUsers(UsersJSON);
         return res.status(201).json({
             message: "Database Filled and Ready to Use!",

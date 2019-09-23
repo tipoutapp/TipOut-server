@@ -1,8 +1,31 @@
 body {
-  padding: 50px;
+  padding: 100px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("../images/tip.jpg");
+  height: 100%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
 }
 
 a {
   color: #00B7FF;
+}
+
+.bg{
+  background-image: url("../images/tip.jpg");
+  height: 100%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bigTitle{
+  padding-top: 50%;
+  
+  text-align-last: 60%;
 }
